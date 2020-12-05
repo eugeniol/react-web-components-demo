@@ -1,0 +1,16 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>How to share state in react webcomponents</title>
+    </head>
+    <body>
+        <x-button increment name="a">a++</x-button>
+        <x-button decrement name="a">a--</x-button>
+        |
+        <x-button increment name="b">b++</x-button>
+        <x-button decrement name="b">b--</x-button>
+        <hr />
+        a = <x-status name="a"></x-status>, b = <x-status name="b"></x-status>
+        <br />
+    </body>
+</html>
